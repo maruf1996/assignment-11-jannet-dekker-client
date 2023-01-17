@@ -1,0 +1,20 @@
+.reviews_heading {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(222, 5, 5);
+  margin-top: 50px;
+}
+.reviews {
+  width: 99%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 600px) {
+  .reviews_heading {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  .reviews {
+    width: 98%;
+    margin: 0 auto;
+  }
+}

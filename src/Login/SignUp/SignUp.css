@@ -1,0 +1,13 @@
+.signUp_form {
+  width: 30%;
+  margin: 60px auto;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .signUp_form {
+    width: 98%;
+    margin: 20px auto;
+    font-size: 20px;
+  }
+}

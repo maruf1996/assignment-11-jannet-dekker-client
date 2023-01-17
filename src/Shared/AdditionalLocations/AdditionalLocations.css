@@ -1,0 +1,17 @@
+.location_container {
+  background-color: #f1f5f8;
+  padding: 50px;
+}
+.location {
+  width: 75%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+  .location_container {
+    padding: 15px;
+  }
+  .location {
+    width: 100%;
+  }
+}

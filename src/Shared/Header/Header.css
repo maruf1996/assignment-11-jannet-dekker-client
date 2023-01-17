@@ -1,0 +1,26 @@
+.header {
+  padding: 20px 30px;
+}
+.nav_link a {
+  text-decoration: none;
+  margin-right: 2rem;
+  margin-top: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: black;
+}
+.nav_link a:hover {
+  color: orange;
+}
+.logout_btn {
+  margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    padding: 10px 20px;
+  }
+  .logout_btn {
+    width: 100px;
+  }
+}

@@ -1,0 +1,28 @@
+.banner {
+  height: 100%;
+}
+.hero_image {
+  width: 100%;
+  height: 730px;
+}
+.hero-text {
+  position: absolute;
+  top: 40%;
+  left: 2%;
+  color: black;
+}
+.hero-text h1 {
+  text-align: justify;
+  font-weight: bold;
+  font-size: 80px;
+}
+
+@media screen and (max-width: 600px) {
+  .hero_image {
+    width: 100%;
+    height: 280px;
+  }
+  .hero-text {
+    display: none;
+  }
+}

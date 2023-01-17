@@ -1,0 +1,10 @@
+.service_img {
+  width: 100%;
+  height: 400px;
+}
+
+@media screen and (max-width: 600px) {
+  .service_img {
+    height: 250px;
+  }
+}
